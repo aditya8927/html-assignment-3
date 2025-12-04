@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Semantic HTML</title>
+    
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #e9eef2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+       
+        main {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin: 30px auto;
+        }
+
+       
+        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: #28a745;
+            margin-top: 25px;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #28a745;
+        }
+
+       
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        
+        dl {
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 150px 1fr; /
+            gap: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #555;
+            text-align: right;
+            padding-right: 15px;
+        }
+
+        dd {
+            margin-left: 0;
+            color: #000;
+        }
+
+        address {
+            font-style: normal;
+            background-color: #fff;
+            padding: 10px;
+            border-left: 5px solid #ffc107;
+        }
+
+        
+        ul {
+            list-style: none; 
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        
+        li h3 {
+            margin-top: 0;
+            color: #17a2b8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>My Personal Profile</h1>
+        </header>
+
+        <section id="basic-info">
+            <h2>Basic Details</h2>
+            
+            <dl>
+                <dt>Full Name:</dt>
+                <dd>ADITYA KUMAR</dd> 
+
+                <dt>Age:</dt>
+                <dd>19</dd>
+            </dl>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            
+            <address>
+                <strong>Address:</strong><br>
+                <br>
+                begusarai<br>
+                bihar
+            </address>
+        </section>
+        
+        <section id="education-info">
+            <h2>Educational Background</h2>
+            
+            <ul>
+                
+                </li>
+                <li>
+                    <h3>Btech CSE(Ai & ML)</h3>
+                    <p>Institution: Medhavi skills university</p>
+                    <p>Year Completed: <time datetime="2018">2018</time></p>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Personal Profile Demo | Structured with Semantic HTML5</p>
+        </footer>
+    </main>
+
+</body>
+</html>
